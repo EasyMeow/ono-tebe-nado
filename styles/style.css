@@ -7,7 +7,7 @@
   justify-content: space-between;
 }
 
-.header__menu  {
+.header__menu {
   display: flex;
   column-gap: 33px;
   list-style: circle;
@@ -131,4 +131,87 @@
   color: white;
   font-size: 22px;
   font-family: Raleway, Arial, sans-serif;
+}
+
+.lots {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  min-width: 1100px;
+  max-width: 1440px;
+  width: 100%;
+}
+
+.lots__heading {
+  margin: 180px 0 0 90px;
+  width: 100%;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.lots__card-list {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin: 2px 25px 0 50px;
+  min-width: 700px;
+  max-width: 1440px;
+  width: 100%;
+}
+
+.card__link {
+  position: relative;
+  flex: 1 1 340px;
+  min-width: 430px;
+  min-height: 450px;
+  margin: 25px 25px 0 0;
+  overflow: hidden;
+}
+
+.card {
+  position: absolute;
+  min-width: 430px;
+  min-height: 450px;
+  width: 100%;
+  height: 100%;
+}
+
+.card__link img {
+  width: 100%;
+}
+
+.card__textbox {
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  min-height: 450px;
+}
+
+.card__title {
+  width: 100%;
+  margin: 50px 40px 0 40px;
+  align-self: flex-start;
+  justify-self: start;
+}
+
+.card__title h3 {
+  display: inline;
+  font-size: 22px;
+  color: white;
+  text-transform: uppercase;
+  border-bottom: 1px solid white;
+}
+
+.card__text {
+  color: white;
+  width: 100%;
+  margin: 0 40px 50px 40px;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  align-self: flex-end;
+  justify-self: start;
 }
