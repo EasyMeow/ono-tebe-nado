@@ -3,7 +3,6 @@
   margin: 94px auto;
   min-width: 1100px;
   max-width: 1340px;
-  /* background-color: aqua; */
   align-items: center;
   justify-content: space-between;
 }
@@ -48,4 +47,59 @@
 
 .address p {
   line-height: 24px;
+}
+
+.cover {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1440px;
+  min-width: 1100px;
+  min-height: 757px;
+  background: url(../images/cover.jpg) 1440px 757px no-repeat;
+  background-position: 0px -16px;
+  background-size: cover;
+  color: white;
+  position: relative;
+}
+
+.overlay__background {
+  background-color: black;
+  opacity: 0.6;
+  z-index: 2;
+  inset: 0;
+  position: absolute;
+}
+
+.cover__title {
+  z-index: 3;
+  margin: 0;
+  font-weight: bold;
+  font-size: 100px;
+  letter-spacing: 30px;
+  padding: 0 50px;
+  text-transform: uppercase;
+}
+
+.letter__spacing-extended {
+  margin-left: 30px;
+}
+
+.aligned__text {
+  display: block;
+  margin-top: 164px;
+}
+
+.aligned__text-center {
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 29px;
+}
+
+.aligned__text-right {
+  display: block;
+  text-align: right;
+  margin-top: 3px;
+  margin-right: -30px;
 }
