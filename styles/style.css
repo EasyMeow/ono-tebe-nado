@@ -60,6 +60,7 @@
   background-position: 0px -16px;
   background-size: cover;
   color: white;
+  padding: 0 50px;
   position: relative;
 }
 
@@ -77,7 +78,6 @@
   font-weight: bold;
   font-size: 100px;
   letter-spacing: 30px;
-  padding: 0 50px;
   text-transform: uppercase;
 }
 
@@ -102,4 +102,33 @@
   text-align: right;
   margin-top: 3px;
   margin-right: -30px;
+}
+
+.cover__description {
+  z-index: 3;
+  display: inline-flex;
+  align-self: flex-end;
+  margin-top: 127px;
+  line-height: 52px;
+}
+
+.cover__description-text {
+  margin-right: 78px;
+  text-transform: uppercase;
+  word-spacing: 17px;
+  font-size: 22px;
+}
+
+.cover__description-text span {
+  margin-left: 5px;
+}
+
+.bet__button {
+  width: 257px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-size: 22px;
+  font-family: Raleway, Arial, sans-serif;
 }
