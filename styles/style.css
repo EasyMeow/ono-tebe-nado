@@ -215,3 +215,13 @@
   align-self: flex-end;
   justify-self: start;
 }
+
+.lots__look-more-link {
+  position: relative;
+  margin: 28px 0 0 90px;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-size: 20px;
+  color: black;
+  border-bottom: 1px solid black;
+}
