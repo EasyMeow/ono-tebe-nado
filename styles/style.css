@@ -14,16 +14,18 @@
   font-size: 18px;
 }
 
-.header__menu li:first-child {
-  list-style: none;
+.header__menu-link {
+  border-bottom: 1px solid black;
 }
 
-.header__menu a:first-child {
+.header__menu-link a {
+  color: black;
   text-decoration: none;
 }
 
-.header__link {
-  border-bottom: 1px solid black;
+.header__menu-link_active {
+  list-style: none; 
+  border: none;
 }
 
 .header__logo {
