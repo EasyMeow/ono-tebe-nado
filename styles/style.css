@@ -1,6 +1,7 @@
 .header {
-  display: flex;
-  margin: 94px auto;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  margin: 94px auto 91px auto;
   min-width: 1100px;
   max-width: 1340px;
   align-items: center;
@@ -29,16 +30,14 @@
 }
 
 .header__logo {
-  margin-top: -3px;
   width: 136px;
-  margin-right: 147px;
 }
 
 .address {
-  margin-top: -2px;
   font-size: 18px;
   width: 240px;
   font-style: normal;
+  justify-self: flex-end;
 }
 
 .address a {
