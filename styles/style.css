@@ -241,7 +241,7 @@
   grid-template-columns: 1fr 2fr;
   column-gap: 14px;
   row-gap: 5px;
-  margin: 180px auto 186px auto;
+  margin: 180px auto 184px auto;
   min-width: 1100px;
   max-width: 1340px;
 }
@@ -323,11 +323,15 @@
   display: flex;
   justify-content: right;
   margin-bottom: 47px;
-  width: 240px;
+  gap: 47px
 }
 
 .footer__social-list img {
   height: 48px;
   width: 48px;
   margin-left: 48px;
+}
+
+.footer__social-list img:first-child {
+  margin-left: 0;
 }
