@@ -58,7 +58,7 @@
   min-width: 1100px;
   min-height: 757px;
   background: url(../images/cover.jpg) 1440px 757px no-repeat;
-  background-position: 0px -16px;
+  background-position: center;
   background-size: cover;
   color: white;
   padding: 0 50px;
