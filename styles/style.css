@@ -184,22 +184,23 @@
 }
 
 .card__img_film {
-  background-image: url(../images/card-lot-01.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/card-lot-01.jpg);
 }
 
 .card__img_book {
-  background-image: url(../images/card-lot-02.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/card-lot-02.jpg);
 }
 
 .card__img_art {
-  background-image: url(../images/card-lot-03.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/card-lot-03.jpg);
 }
 
 .card__textbox {
   display: flex;
   flex-wrap: wrap;
-  z-index: 3;
-  position: absolute;
   top: 0;
   width: 100%;
   min-height: 450px;
